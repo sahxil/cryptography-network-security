@@ -13,14 +13,18 @@ Code projects and assignments for the Cryptography and Network Security course. 
 | # | Project | Topics | Link |
 |---|---|---|---|
 | 01 | Group-Based Binary Cipher | Binary encoding, LCG key generation, group properties (closure, associativity, identity), XOR encryption | [01-group-cipher](./01-group-cipher) |
+| 02 | Multiplicative Cipher (Single Letter) | gcd check, Extended Euclidean Algorithm, modular inverse, key validation, encryption and decryption | [02-multiplicative-cipher](./02-multiplicative-cipher) |
 
 ## Repository structure
 
 ```
 cryptography-network-security/
-├── README.md            index of all projects
-└── 01-group-cipher/
-    ├── group_cipher.py
+├── README.md                    index of all projects
+├── 01-group-cipher/
+│   ├── group_cipher.py
+│   └── README.md
+└── 02-multiplicative-cipher/
+    ├── multiplicative_cipher.py
     └── README.md
 ```
 
